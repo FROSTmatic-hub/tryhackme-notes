@@ -1,7 +1,7 @@
 # What is Networking? (TryHackMe - Pre Security)
 **Platform:** TryHackMe (Pre Security path)  
 **VM / Lab:** Browser modules  
-**Time spent:** 
+**Time spent:** 10 min
 
 ## Objective
 Begin learning the fundamentals of computer networking in this bite-sized and interactive module
