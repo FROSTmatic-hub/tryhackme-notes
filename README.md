@@ -5,11 +5,7 @@ My TryHackMe learning notes are organized by path/module. Click into any folder 
 - **Pre-Security** — Completed ✅  
   Path folder: [`pre-security/`](pre-security/) — foundational networking, HTTP, DNS, and Linux basics.
 
-- **Cybersecurity 101** — In progress  
-  Path folder: [`cybersecurity-101/`](cybersecuirty-101/)
 
-- **Jr. Penetration Tester** — Upcoming / planned  
-  Path folder: [`jr-pentester/`](jr-pentester/)
 
 ---
 
