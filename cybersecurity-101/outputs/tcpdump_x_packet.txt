@@ -1,0 +1,15 @@
+user@TryHackMe$ tcpdump -r TwoPackets.pcap -X
+reading from file TwoPackets.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+18:59:59.979771 IP 104.18.12.149.https > g5000.45248: Flags [P.], seq 2695955324:2695955349, ack 2856007037, win 16, options [nop,nop,TS val 412758285 ecr 3959057198], length 25
+        0x0000:  4500 004d fbd8 4000 3506 d229 6812 0c95  E..M..@.5..)h...
+        0x0010:  c0a8 4259 01bb b0c0 a0b1 037c aa3b 357d  ..BY.......|.;5}
+        0x0020:  8018 0010 f905 0000 0101 080a 189a 310d  ..............1.
+        0x0030:  ebfa 6b2e 1703 0300 146a 8f33 1832 e6a2  ..k......j.3.2..
+        0x0040:  fb99 eb26 3961 dad4 1611 152d 4c         ...&9a.....-L
+18:59:59.980574 IP g5000.45248 > 104.18.12.149.https: Flags [P.], seq 1:30, ack 25, win 2175, options [nop,nop,TS val 3959057384 ecr 412758285], length 29
+        0x0000:  4500 0051 6ca8 4000 4006 5656 c0a8 4259  E..Ql.@.@.VV..BY
+        0x0010:  6812 0c95 b0c0 01bb aa3b 357d a0b1 0395  h........;5}....
+        0x0020:  8018 087f 17e0 0000 0101 080a ebfa 6be8  ..............k.
+        0x0030:  189a 310d 1703 0300 18f4 31fa 798d 2656  ..1.......1.y.&V
+        0x0040:  433c 2389 5f4a 24c2 fa7a 1496 8444 238e  C<#._J$..z...D#.
+        0x0050:  60
