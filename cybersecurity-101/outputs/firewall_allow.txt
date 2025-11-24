@@ -1,0 +1,6 @@
+Action: Allow
+Source: 192.168.1.0/24
+Destination: Any
+Port: 80
+Protocol: TCP
+Direction: Outbound
