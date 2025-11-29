@@ -66,4 +66,10 @@ Discover useful corporate resources to help you structure and simplify L1 alert 
         1. **Enrichment:** Use threat intel and identity data to understand the affected user/IP
         2. **Investigation:** Use SIEM logs and geolocation to verify if login is expected
         3. **Escalation:** Escalate to L2 or contact user if login is suspicious or confirmed attack
+
+## Learning and Reflection
+- Learned Identity inventory.
+- Learned Assest inventory.
+- Learned Network Diagrams.
+- Learned SOC workbooks theory.
         
